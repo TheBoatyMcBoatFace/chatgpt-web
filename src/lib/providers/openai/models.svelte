@@ -20,9 +20,10 @@ const hiddenSettings = {
       assistantMessageEnd: true,
       systemMessageStart: true,
       systemMessageEnd: true,
-      repetitionPenalty: true
+      repetitionPenalty: true,
+      holdSocket: true
       // leadPrompt: true
-}
+} as any
 
 const chatModelBase = {
   type: 'chat',
